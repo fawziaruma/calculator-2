@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 100px;
 }
 .calculator{
     background-color: #3a4452;
@@ -27,6 +28,7 @@
     color: #fff;
     cursor: pointer;
     margin: 10px;
+   /* margin-left: 30px; */
 }
 .display{
     display: flex;
@@ -35,7 +37,11 @@
 }
 .display input{
     text-align: right;
+    width: 60px;
     flex: 1;
     font-size: 45px;
     box-shadow:none ;
+    border-radius: 10px;
+    outline: none;
+    border: none;
 }
